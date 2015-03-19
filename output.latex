@@ -1,0 +1,39 @@
+This is a demo file for pandoc-crossref. With this filter, you can
+cross-reference figures (see
+ \ref{figure1}, \ref{figure2}, \ref{figure3}), display equations (see
+ \ref{eqn1}) and tables (see  \ref{table1})
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{img1.jpg}
+\caption{\label{figure1}First figure}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{img2.jpg}
+\caption{\label{figure2}Second figure}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{img3.jpg}
+\caption{\label{figure3}Third figure}
+\end{figure}
+
+\begin{equation} P_i(x) = \sum_i a_i x^i \label{eqn1}\end{equation}
+
+\begin{longtable}[c]{@{}ll@{}}
+\caption{\label{table1}Table example }\tabularnewline
+\toprule
+First Header & Second Header\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+First Header & Second Header\tabularnewline
+\midrule
+\endhead
+Content Cell & Content Cell\tabularnewline
+Content Cell & Content Cell\tabularnewline
+\bottomrule
+\end{longtable}
