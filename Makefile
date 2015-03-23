@@ -1,7 +1,7 @@
 all: filter pdf latex html md clean
 
 filter:
-	git checkout master pandoc-crossref.hs
+	git checkout master pandoc-crossref.hs demo.md
 
 clean:
 	git rm -f pandoc-crossref.hs

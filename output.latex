@@ -40,10 +40,6 @@ Content Cell & Content Cell\tabularnewline
 
 It's also possible to show lists of figures and tables, like this:
 
-List of figures:
-
 \listoffigures
-
-List of tables:
 
 \listoftables
