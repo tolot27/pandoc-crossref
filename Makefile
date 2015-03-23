@@ -4,7 +4,7 @@ filter:
 	git checkout master pandoc-crossref.hs
 
 clean:
-	rm pandoc-crossref.hs
+	git rm -f pandoc-crossref.hs
 
 pdf: filter
 	pandoc -t latex --filter ./pandoc-crossref.hs -o output.pdf -i demo.md

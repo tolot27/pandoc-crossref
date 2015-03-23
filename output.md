@@ -17,4 +17,15 @@ $$ P_i(x) = \sum_i a_i x^i \qquad(1)$$
 
   : Table 1: Table example
 
+It's also possible to show lists of figures and tables, like this:
+
+List of figures:
+
+1.  First figure
+2.  Second figure
+3.  Third figure
+
+List of tables:
+
+1.  Table example
 
