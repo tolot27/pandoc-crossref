@@ -21,11 +21,17 @@ It's also possible to show lists of figures and tables, like this:
 
 List of figures:
 
+List of Figures
+===============
+
 1.  First figure
 2.  Second figure
 3.  Third figure
 
 List of tables:
+
+List of Tables
+==============
 
 1.  Table example
 
