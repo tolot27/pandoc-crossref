@@ -1,7 +1,7 @@
 This is a demo file for pandoc-crossref. With this filter, you can
-cross-reference figures (see
-fig.  \ref{figure1}, \ref{figure2}, \ref{figure3}), display equations
-(see eq.  \ref{eqn1}) and tables (see tbl.  \ref{table1})
+cross-reference figures (see fig.
+ \ref{figure1}, \ref{figure2}, \ref{figure3}), display equations (see
+eq.  \ref{eqn1}) and tables (see tbl.  \ref{table1})
 
 \begin{figure}[htbp]
 \centering
