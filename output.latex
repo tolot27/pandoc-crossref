@@ -21,6 +21,12 @@ eq.  \ref{eqn1}) and tables (see tbl.  \ref{table1})
 \caption{\label{figure3}Third figure}
 \end{figure}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics{img1.jpg}
+\caption{Unlabelled image}
+\end{figure}
+
 \begin{equation} P_i(x) = \sum_i a_i x^i \label{eqn1}\end{equation}
 
 \begin{longtable}[c]{@{}ll@{}}
@@ -29,6 +35,18 @@ eq.  \ref{eqn1}) and tables (see tbl.  \ref{table1})
 First Header & Second Header\tabularnewline
 \midrule
 \endfirsthead
+\toprule
+First Header & Second Header\tabularnewline
+\midrule
+\endhead
+Content Cell & Content Cell\tabularnewline
+Content Cell & Content Cell\tabularnewline
+\bottomrule
+\end{longtable}
+
+Table without caption:
+
+\begin{longtable}[c]{@{}ll@{}}
 \toprule
 First Header & Second Header\tabularnewline
 \midrule

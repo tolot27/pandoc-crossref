@@ -8,6 +8,8 @@ and tables (see tbl. 1)
 
 ![Figure \# 3: Third figure](img3.jpg)
 
+![Unlabelled image](img1.jpg)
+
 $$ P_i(x) = \sum_i a_i x^i \qquad(1)$$
 
   First Header   Second Header
@@ -16,6 +18,13 @@ $$ P_i(x) = \sum_i a_i x^i \qquad(1)$$
   Content Cell   Content Cell
 
   : Table 1: Table example
+
+Table without caption:
+
+  First Header   Second Header
+  -------------- ---------------
+  Content Cell   Content Cell
+  Content Cell   Content Cell
 
 It's also possible to show lists of figures and tables, like this:
 
