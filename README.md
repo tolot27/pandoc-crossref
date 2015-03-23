@@ -54,7 +54,7 @@ a   b   c
 : Caption {#tbl:label}
 ```
 
-To label a table, append `{#tbl:label}` at the end of table caption (with `label` being something unique to reference this equation by)
+To label a table, append `{#tbl:label}` at the end of table caption (with `label` being something unique to reference this table by)
 
 ### References
 
